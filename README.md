@@ -1,3 +1,6 @@
+# LINK
+https://pokemon-frontend-dfo5.onrender.com/#/
+
 # Pokédex PWA (frontend)
 Frontend estático (HTML + CSS + JS modular, sin build) que consume https://pokedex-backend-g1ql.onrender.com
 
