@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#9AA3B2">
+  <title>Pokédex</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top"><button id="home" class="logo" aria-label="Ir al catálogo"><span class="ball sm"></span>POKÉDEX</button></header>
+  <main id="view"></main>
+  <nav id="nav" class="nav" aria-label="Navegación entre Pokémon" hidden>
+    <button id="prev" class="btn nb"><span aria-hidden="true">◀</span><span>Anterior<small></small></span></button>
+    <span id="pos" class="pos" aria-live="polite"></span>
+    <button id="next" class="btn nb"><span>Siguiente<small></small></span><span aria-hidden="true">▶</span></button>
+  </nav>
+  <noscript>Esta aplicación necesita JavaScript.</noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
